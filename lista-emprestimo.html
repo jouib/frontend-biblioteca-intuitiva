@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA DE EMPRÉSTIMOS</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+    <link rel="stylesheet" href="css/listagem.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">INÍCIO</a>
+            <a href="lista-aluno.html">ALUNOS</a>
+            <a href="lista-livro.html">LIVROS</a>
+            <a href="lista-emprestimo.html">EMPRESTIMO</a>
+        </nav>
+    </header>
+    <div class="painel">
+        <div class="esquerda">
+            <div>
+                <a href="cadastro-emprestimo.html">NOVO EMPRÉSTIMO</a>
+            </div>
+        </div>
+        <div class="meio">
+            <h1>Empréstimos</h1>
+        </div>
+        <div class="direita"></div>
+    </div>
+    <div class="container-tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID EMPRESTIMO</th>
+                    <th>ID ALUNO</th>
+                    <th>ID LIVRO</th>
+                    <th>DATA DE EMPRÉSTIMO</th>
+                    <th>DATA DE DEVOLUÇÃO</th>
+                    <th>STATUS DO EMPRÉSTIMO</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>12/11/24</td>
+                    <td>15/04/1999</td>
+                    <td>Emprestado</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>11/11/24</td>
+                    <td>19/11/1997</td>
+                    <td>Emprestado</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Empréstimos</title>
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">INÍCIO</a>
+            <a href="lista-aluno.html">ALUNOS</a>
+            <a href="lista-livro.html">LIVROS</a>
+            <a href="lista-emprestimo.html">EMPRÉSTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE EMPRÉSTIMO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label>
+                ID Aluno
+                <br>
+                <input type="text" name="input-idaluno-emprestimo" placeholder="Informe o ID do Aluno" required>
+            </label>
+            <label>
+                ID Livro
+                <br>
+                <input type="text" name="input-idlivro-emprestimo" placeholder="Informe o ID do Livro " required>
+            </label>
+            <label>
+                Data de Empréstimo
+                <br>
+                <input type="date" name="input-data-emprestimo" placeholder="Informe a data de Empréstimo" required>
+            </label>
+            <label>
+                Data de Devolução
+                <br>
+                <input type="date" name="input-data-devolucao" placeholder="Informe a data de Devolução" required>
+            </label>
+            <label>
+                Status do Empréstimo
+                <br>
+                <input type="text" name="input-status-emprestimo" placeholder="Informe o Status do Empréstimo" required>
+            </label>
+            <input type="button" value="CADASTRAR" onclick="enviaFormulario()">
+        </form>
+    </div>
+
+
+</body>
+
+</html>

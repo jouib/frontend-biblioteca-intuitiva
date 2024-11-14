@@ -1,0 +1,65 @@
+.amarelo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    border-radius: 2px;
+    background-color: #F9A429;
+}
+
+h4 {
+    color: white;
+    font-size: large;
+}
+
+h2 {
+    color: white;
+    font-size: large;
+    font-style: italic;
+}
+
+p{
+    color: white;
+    font-size: small;
+}
+
+.painel-geral {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.painel-esquerdo,
+.painel-direito {
+    width: 50%;
+}
+
+.painel-esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.painel-esquerdo img{
+    display: flex;
+    height: 350px;
+    width: 550px;
+    align-items: flex-start;
+    margin-left: 0%;
+    margin-top: 15%;
+}
+
+.painel-esquerdo p {
+    font-size: 26px;
+    margin: 0 40px 20px 40px;
+}
+
+.painel-direito {
+    display: flex;
+    align-items: center;
+}
+
+.painel-direito img {
+    width: 600px;
+}

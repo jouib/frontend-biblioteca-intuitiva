@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Livros</title>
+  
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">INÍCIO</a>
+            <a href="lista-aluno.html">ALUNOS</a>
+            <a href="lista-livro.html">LIVROS</a>
+            <a href="lista-emprestimo.html">EMPRÉSTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE LIVRO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label>
+                Título
+                <br>
+                <input type="text" name="input-titulo-livro" placeholder="Informe o título do livro" required>
+            </label>
+            <label>
+                Autor
+                <br>
+                <input type="text" name="input-autor-livro" placeholder="Informe o autor do livro" required>
+            </label>
+            <label>
+                Editora
+                <br>
+                <input type="text" name="input-editora-livro" placeholder="Informe a editora do livro " required>
+            </label>
+            <label>
+                Ano de Publicação
+                <br>
+                <input type="number" name="input-ano-livro" placeholder="Informe o ano de publicação" required>
+            </label>
+            <label>
+                ISBN
+                <br>
+                <input type="number" name="input-email-aluno" placeholder="Informe o email do aluno" required>
+            </label>
+            <label>
+                QuantidadE Total
+                <br>
+                <input type="number" name="input-celular-aluno" placeholder="Informe o celular do aluno" required>
+            </label>
+            <label>
+                QuantidadE Disponível
+                <br>
+                <input type="number" name="input-celular-aluno" placeholder="Informe o celular do aluno" required>
+            </label>
+            <label>
+                Valor de Aquisição
+                <br>
+                <input type="number" name="input-celular-aluno" placeholder="Informe o celular do aluno" required>
+            </label>
+            <label>
+                Status
+                <br>
+                <input type="text" name="input-celular-aluno" placeholder="Informe o celular do aluno" required>
+            </label>
+
+            <input type="button" value="CADASTRAR" onclick="enviaFormulario()">
+        </form>
+    </div>
+</body>
+
+</html>
