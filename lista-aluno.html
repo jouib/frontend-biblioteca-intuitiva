@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/navegacao.css">
     <link rel="stylesheet" href="css/listagem.css">
 </head>
-<body>
+<body onload="recuperarListaAluno()">
     <header>
         <nav>
             <a href="index.html">INÍCIO</a>
@@ -45,35 +45,10 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td> 1 </td>
-                    <td> 1234567 </td>
-                    <td>Walter Vinícios</td>
-                    <td>Moretti Silva</td>
-                    <td>15/04/1999</td>
-                    <td>Rua Antônio Danese n° 779</td>
-                    <td>walter.moretti@gmail.com</td>
-                    <td>(16) 998257742</td>
-                    <td>
-                        <a href="atualizar-aluno.html"><img src="assets/icons/pencil-square.svg" alt="editar"></a>
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
-                <tr>
-                    <td> 2 </td>
-                    <td> 7654321 </td>
-                    <td>Heloísa</td>
-                    <td>Pereira</td>
-                    <td>19/11/1997</td>
-                    <td>Rua Santos Dumont n° 297</td>
-                    <td>helo.pereira@gmail.com</td>
-                    <td>(16) 992284410</td>
-                    <td>
-                        <a href="atualizar-aluno.html"><img src="assets/icons/pencil-square.svg" alt="editar"></a>
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
+               
             </tbody>
         </table>
     </div>
+    <script src="/js/aluno.js"></script>
 </body>
 </html>

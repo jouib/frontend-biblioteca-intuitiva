@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/navegacao.css">
     <link rel="stylesheet" href="css/listagem.css">
 </head>
-<body>
+<body onLoad="recuperarListaLivros()">
     <header>
         <nav>
             <a href="index.html">INÍCIO</a>
@@ -39,47 +39,18 @@
                     <th>EDITORA</th>
                     <th>ANO</th>
                     <th>ISBN</th>
-                    <th>QUANT TOTAL</th>
-                    <th>QUANT DISPONÍVEL</th>
+                    <th>QUANTIDADE TOTAL</th>
+                    <th>QUANTIDADE DISPONÍVEL</th>
                     <th>VALOR AQUISIÇÃO</th>
                     <th>STATUS</th>
                     <th>AÇÕES</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>El Señor Presidente</td>
-                    <td>Miguel Aturias</td>
-                    <td>Jambô</td>
-                    <td>1997</td>
-                    <td>9788437615172</td>
-                    <td>12</td>
-                    <td>6</td>
-                    <td>R$ 27.000,00</td>
-                    <td>Disponível</td>
-                    <td>
-                        <a href="atualizar-livro.html"><img src="assets/icons/pencil-square.svg" alt="editar"></a>
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Dom Casmurro</td>
-                    <td>Machado de Assis</td>
-                    <td>Companhia das Letras</td>
-                    <td>2001</td>
-                    <td> 9788574803999</td>
-                    <td>44</td>
-                    <td>41</td>
-                    <td>R$ 39.000,00</td>
-                    <td>Disponível</td>
-                    <td>
-                        <a href="atualizar-livro.html"><img src="assets/icons/pencil-square.svg" alt="editar"></a>
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
+               
             </tbody>
         </table>
     </div>
+    <script src="/js/livro.js"></script>
 </body>
 </html>

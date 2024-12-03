@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/navegacao.css">
     <link rel="stylesheet" href="css/listagem.css">
 </head>
-<body>
+<body onLoad="recuperarListaEmprestimo()">
     <header>
         <nav>
             <a href="index.html">INÍCIO</a>
@@ -43,31 +43,10 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>12/11/24</td>
-                    <td>15/04/1999</td>
-                    <td>Emprestado</td>
-                    <td>
-                        <a href="atualizar-emprestimo.html"><img src="assets/icons/pencil-square.svg" alt="editar"></a>
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>11/11/24</td>
-                    <td>19/11/1997</td>
-                    <td>Emprestado</td>
-                    <td>
-                        <a href="atualizar-emprestimo.html"><img src="assets/icons/pencil-square.svg" alt="editar"></a>
-                        <img src="assets/icons/trash-fill.svg" alt="excluir">
-                    </td>
+                
             </tbody>
         </table>
     </div>
+    <script src="/js/emprestimo.js"></script>
 </body>
 </html>
